@@ -6,10 +6,10 @@
 
 ## Anotações usadas
 > - De domínio
->  - @Entity
->  - @Id
->  - @GeneratedValue(strategy = GenerationType.IDENTITY)
->  - @JsonManagedReference
->  - @OneToMany(mappedBy = "categoria")
+>   - @Entity
+>   - @Id
+>   - @GeneratedValue(strategy = GenerationType.IDENTITY)
+>   - @JsonManagedReference
+>   - @OneToMany(mappedBy = "categoria")
 > - De validação
 >  - 

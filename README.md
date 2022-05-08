@@ -1,4 +1,4 @@
-# Back-End do projeto BookControl
+# [`Back-End do projeto BookControl`](https://github.com/jcarloscody/angular_projeto_BookControle)
 
 
 ## Conceitos usados neste projeto back
@@ -6,15 +6,28 @@
 >  - `H2 Console`: criado um banco de dados em memória, apenas em tempo de compilação.
 >  - `Handler Exception`: funciona como um filtro de exceções para tratar as emissões
 >  - `Padrão DTO`: Data transfer object é bastante usado na linguagem java e a finalidade deste padrão é a transferência de dados para os componentes do sistema. Em síntese, é descomplexar uma entidade e agrupar atributos numa classe simples. E no presente projeto, por exemplo, o DTO de categoria tem por fim omitir os livros que se relacionam com a categoria respectiva.
+>  - `Criação de perfil` no application.properties
 
 ## Dependências
 > - DevTools: auxilia na compilação
-## Anotações usadas
-> - De domínio
+> - spring-boot-starter-data-jpa: para persistência
+> - spring-boot-starter-validation: para validações dos campos
+> - h2: para testes
+
+## Anotações usadas (algumas)
+> - Para domínio
 >   - @Entity
 >   - @Id
 >   - @GeneratedValue(strategy = GenerationType.IDENTITY)
 >   - @JsonManagedReference
 >   - @OneToMany(mappedBy = "categoria")
 > - De validação
->  - 
+>  - @NotEmpty
+>  - @Length
+>  - @Valid
+> - De controller
+>  - @RestController
+>  - @GetMapping
+>  - @PostMapping
+>  - @PutMapping
+>  - @DeleteMapping

@@ -1,4 +1,4 @@
-package com.book.controle.resources;
+package com.book.controle.controller;
 
 import java.net.URI;
 import java.util.List;
@@ -27,7 +27,7 @@ import com.book.controle.servico.LivroService;
 
 @RestController
 @RequestMapping(value = "/livros")
-public class LivroResource {
+public class LivroController {
 
 	@Autowired
 	private LivroService livroService;

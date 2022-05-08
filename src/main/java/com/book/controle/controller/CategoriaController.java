@@ -1,4 +1,4 @@
-package com.book.controle.resources;
+package com.book.controle.controller;
 
 import java.net.URI;
 import java.util.List;
@@ -24,7 +24,7 @@ import com.book.controle.servico.CategoriaService;
 
 @RestController
 @RequestMapping(value = "/categorias")
-public class CategoriaResource {
+public class CategoriaController {
 
 	@Autowired
 	private CategoriaService categoriaService;

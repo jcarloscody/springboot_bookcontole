@@ -2,6 +2,8 @@
 
 Este back-end foi desenvolvido usando o Spring Boot e está servindo como base para o [`projeto book controle com Angular`](https://github.com/jcarloscody/angular_projeto_BookControle). Em suma, com este projeto o usuário pode cadastrar os livros que desejar e referenciar para qual categoria o respectivo livro pertence. O usuário também poderá fazer a leitura do livro cadastrado. Logo abaixo tem uma análise abreviada dos conceitos usados neste projeto no back-end.
 
+#### [`Postman Endpoints`](https://www.getpostman.com/collections/90f5a03ebbd6ac553ddb)
+
 
 ## Conceitos usados neste projeto back
 >  - `Spring Data JPA`: é um framework que tem a finalidade de facilitar a criação do repositório. Antes precisávamos criar classes DAO (data access object) objetos de acesso a dados, por meio dele era realizada a persistência com o banco de dados.  O Spring Data JPA faz parte do projeto Spring Data que também tem esta finalidade de persistência de dados e possui outros projetos.
